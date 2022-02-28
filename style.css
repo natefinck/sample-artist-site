@@ -1,0 +1,173 @@
+/* pink: #E7A593 */
+/* pink2: #E7A58A */
+/* red: #D34F3A */
+/* tan: #F6D8BF */
+/* blue: #488BF7 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Serif', serif;
+}
+
+.mainContainer {
+    height: 50vw;
+    display: flex;
+}
+
+#section1 {
+    background-color: #E7A593;
+}
+
+#noto {
+    font-weight: 700;
+    color: #D34F3A;
+    font-size: 1.5rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#noto div {
+    width: 8rem;
+    font-size: 4.5vw;
+}
+
+#notoImages {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#notoImages div {
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#notoImages img {
+    height: 12vw;
+}
+
+#s1img1 {
+    background-color: #F6D8BF;
+}
+
+#s1img2 {
+    background-color: #488BF7;
+}
+
+#s1img3 {
+    background-color: #D34F3A;
+}
+
+#s1img4 {
+    background-color: #E7A58A;
+}
+
+#space {
+    background-image: url("./imgs/E2V9zdHWEAQhwA1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 42vw;
+}
+
+#spaceContent {
+    padding: 2vw 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#spaceContent div {
+    color: #F6D8BF;
+    font-size: 1.3vw;
+}
+
+#section2 {
+    background-color: #F6D8BF;
+}
+
+#s2Left {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+#s2Left div {
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#s2Left img {
+    height: 12vw;
+}
+
+#s2img1 {
+    background-color: #F6D8BF;
+}
+
+#s2img2 {
+    background-color: #488BF7;
+}
+
+#s2img3 {
+    width: 100% !important;
+    overflow: hidden
+}
+
+#s2img3 img {
+    height: auto;
+    width: 100%;
+}
+
+#s2Right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#s2Right img {
+    width: 50%;
+}
+
+#section3 {
+    background-color: #E7A58A;
+    padding: 12vw;
+}
+
+#s3Header {
+    font-size: 1.6vw;
+    font-weight: bold;
+    width: 40%;
+    padding-bottom: 2vw;
+}
+
+#s3Content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.s3Header{
+    font-size: 1.2vw;
+    font-weight: bold;
+    padding-bottom: .5vw;
+}
+
+.s3ItemContent {
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px){
+	#space {
+        height: 60vw;
+    }
+}
