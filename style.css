@@ -10,6 +10,10 @@ body {
     font-family: 'Noto Serif', serif;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .mainContainer {
     height: 50vw;
     display: flex;
