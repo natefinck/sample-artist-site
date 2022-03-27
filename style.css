@@ -10,10 +10,6 @@ body {
     font-family: 'Noto Serif', serif;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
-
 .mainContainer {
     height: 50vw;
     display: flex;
@@ -45,7 +41,7 @@ body {
 }
 
 #notoImages div {
-    width: 25vw;
+    width: 50%;
     height: 25vw;
     display: flex;
     justify-content: center;
@@ -102,7 +98,7 @@ body {
 }
 
 #s2Left div {
-    width: 25vw;
+    width: 50%;
     height: 25vw;
     display: flex;
     justify-content: center;
